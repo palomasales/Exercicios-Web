@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.frase{
+    color: rgba(0, 0, 0, 0.726);
+}
+
+
+.center {
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both
+}
+
+header {
+    background: #2851A3;
+    padding: 8px 0;
+}
+
+.logo {
+    float: left;
+    color: white;
+}
+
+.logo h2 {
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.form-element input[type=submit] {
+    cursor: pointer;
+    border: 0;
+    background: #1877F2;
+    border: 2px solid #215ab2;
+    color: white;
+    padding: 3px 5px;
+
+}
+
+.form-element input[type=submit]:hover {
+    background: #215ab2;
+}
+
+section.main {
+    background: linear-gradient(white, #D3D8E8);
+    padding: 40px 0;
+}
+
+.div-form {
+    float: left;
+    width: 60%;
+}
+
+.div-form{
+    max-width: 100%;
+}
+
+.abrir-conta {
+    width: 40%;
+    float: left;
+}
+
+.abrir-conta h2 {
+    font-size: 30px;
+    color: black;
+}
+
+.abrir-conta h3 {
+    font-size: 19px;
+    color: rgb(30, 30, 30);
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+form.criar-conta {
+    margin-top: 0 5px;
+}
+
+.w50 {
+    width: 50%;
+    padding: 0 5px;
+    float: left;
+}
+
+.espaco {
+    padding: 0 5px;
+    width: 100%;
+    float: left;
+}
+
+form.criar-conta input {
+    width: 100%;
+    margin-top: 8px;
+}
+
+form.criar-conta input[type=email],
+form.criar-conta input[type=text],
+form.criar-conta input[type=password] {
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #a5dcff;
+    border-radius: 8px;
+}
+
+form.criar-conta input[type=submit] {
+    height: 40px;
+    width: 50%;
+    background: linear-gradient(#67ae55, #578843);
+    color: white;
+    cursor: pointer;
+    border: 0;
+    font-size: 19px;
+}
+
+form .espaco h2 {
+    margin-top: 10px;
+    color: #1d2129;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+form select.nascimento {
+    float: left;
+    margin-top: 5px;
+}
+
+.input-radio {
+    margin: 8px 10px;
+    float: left;
+
+}
+
+.input-radio h2 {
+    font: normal;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.input-radio input[type=radio] {
+
+    width: auto !important;
+    display: inline-block;
+}
+
+
